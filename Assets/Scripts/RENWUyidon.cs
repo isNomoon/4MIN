@@ -11,12 +11,14 @@ public class FirstPersonMove : MonoBehaviour
     private float xRotation = 0f;
     private Vector3 velocity;
     private float gravity = -9.81f;
+    public string text;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
         cam = GetComponentInChildren<Camera>().transform;
         Cursor.lockState = CursorLockMode.Locked;
+        //Debug.Log(renwuguanli.instance.Finish(text));
     }
 
     void Update()
