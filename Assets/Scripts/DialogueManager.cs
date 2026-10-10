@@ -141,10 +141,12 @@ public class DialogueManager : MonoBehaviour
         continueHint.text = "点击继续 ▶";
     }
 
+    public SlideManager slideManager;
+
     private void ShowNextLine()
     {
         currentLineIndex++;
-
+        slideManager.NextSlide();
         ShowCurrentLine();
     }
 
