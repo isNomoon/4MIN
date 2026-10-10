@@ -256,7 +256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &146258240
 Transform:
   m_ObjectHideFlags: 0
@@ -1049,11 +1049,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4046a60f496493f4eb31c432dd45eac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 0}
-  speakerNameText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  continueHint: {fileID: 0}
-  dialogueLines: []
+  dialoguePanel: {fileID: 902049523}
+  speakerNameText: {fileID: 807050226}
+  dialogueText: {fileID: 229968968}
+  continueHint: {fileID: 956183593}
+  dialogueLines:
+  - speakerName: 
+    dialogueText: 
+  - speakerName: 
+    dialogueText: 
   typingSpeed: 0.04
   advanceKey: 323
   slideManager: {fileID: 1263214753}
